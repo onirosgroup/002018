@@ -259,7 +259,7 @@ nav a:focus {
 /*--header end here--*/
 /*--banner strat here--*/
 .banner {
-    background: url(../images/banner.jpg)no-repeat;
+    background: url(../images/home/banner.jpg)no-repeat;
     min-height:660px;
     background-size: cover;
 }
@@ -819,7 +819,7 @@ span.abou-icon2 {
     padding: 5em 0em;
 }
 .advantages {
-    background: url(../images/ab-bann.jpg)no-repeat;
+    background: url(../images/about/ab-bann.jpg)no-repeat;
     min-height: 350px;
     background-size: cover;
 }
@@ -1116,7 +1116,7 @@ span.abou-icon2 {
  
 }
 .ser-strip {
-    background: url(../images/ser-strip.jpg)no-repeat;
+    background: url(../images/services/ser-strip.jpg)no-repeat;
     min-height: 350px;
     background-size: cover;
     padding: 5em 0em;
