@@ -1,22 +1,18 @@
-<!--Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE HTML>
 <html>
 <head>
-	<title>Mr Hotel a Hotel Category Flat Bootstrap Responsive  Website Template | Contact :: w3layouts</title>
+	<title>Hostal Yakelyn</title>
 	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="js/jquery-1.11.0.min.js"></script>
 	<!-- Custom Theme files -->
 	<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+	<link href="css/style1.css" rel="stylesheet" type="text/css" media="all" />
 	<!-- Custom Theme files -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="keywords" content="Mr Hotel Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+	<!--TODO: keywords-->
+	<meta name="keywords" content="" />
 	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 	<!--Google Fonts-->
 	<link href='//fonts.googleapis.com/css?family=Hind:400,300' rel='stylesheet' type='text/css'>
@@ -29,7 +25,40 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         new WOW().init();
 	</script>
 	<!-- animated-css -->
+	<script src="js/modernizr.js"></script>
+	<script>
+        $(document).ready(function(){
+            if (Modernizr.touch) {
+                // show the close overlay button
+                $(".close-overlay").removeClass("hidden");
+                // handle the adding of hover class when clicked
+                $(".branch-gd").click(function(e){
+                    if (!$(this).hasClass("hover")) {
+                        $(this).addClass("hover");
+                    }
+                });
+                // handle the closing of the overlay
+                $(".close-overlay").click(function(e){
+                    e.preventDefault();
+                    e.stopPropagation();
+                    if ($(this).closest(".branch-gd").hasClass("hover")) {
+                        $(this).closest(".branch-gd").removeClass("hover");
+                    }
+                });
+            } else {
+                // handle the mouseenter functionality
+                $(".branch-gd").mouseenter(function(){
+                    $(this).addClass("hover");
+                })
+                // handle the mouseleave functionality
+                    .mouseleave(function(){
+                        $(this).removeClass("hover");
+                    });
+            }
+        });
+	</script>
 	<script src="js/bootstrap.min.js"></script>
+
 </head>
 <body>
 <!--header-top start here-->
@@ -37,18 +66,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="container">
 		<div class="top-header-main">
 			<div class="col-md-4 top-social wow bounceInLeft" data-wow-delay="0.3s">
-				<ul>
-					<li><h5>Follow Us :</h5></li>
-					<li><a href="#"><span class="fb"> </span></a></li>
-					<li><a href="#"><span class="tw"> </span></a></li>
-					<li><a href="#"><span class="in"> </span></a></li>
-					<li><a href="#"><span class="gmail"> </span></a></li>
-				</ul>
+				<!--<ul>-->
+				<!--<li><h5>Encuentranos en:</h5></li>-->
+				<!--<li><a href="#"><span class="fb"> </span></a></li>-->
+				<!--<li><a href="#"><span class="tw"> </span></a></li>-->
+				<!--<li><a href="#"><span class="in"> </span></a></li>-->
+				<!--<li><a href="#"><span class="gmail"> </span></a></li>-->
+				<!--</ul>-->
 			</div>
 			<div class="col-md-8 header-address wow bounceInRight" data-wow-delay="0.3s">
 				<ul>
-					<li><span class="phone"> </span> <h6>(220) 280-31589</h6></li>
-					<li><span class="email"> </span><h6><a href="mailto:info@example.com">Youremail@gmail.com</a></h6></li>
+					<li><span class="phone"> </span> <h6>(53) 55740653</h6></li>
+					<li><span class="email"> </span><h6><a href="yaquelinhostal@gmail.com">yaquelinhostal@gmail.com</a></h6></li>
 				</ul>
 			</div>
 			<div class="clearfix"> </div>
@@ -79,11 +108,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div id="navbar" class="navbar-collapse collapse">
 						<nav class="cl-effect-16" id="cl-effect-16">
 							<ul class="nav navbar-nav">
-								<li><a  href="index.html" data-hover="Home">Home</a></li>
-								<li><a href="about.html" data-hover="About">About</a></li>
-								<li><a href="services.html" data-hover="Services">Services</a></li>
-								<li><a href="room.html" data-hover="Rooms">Rooms</a></li>
-								<li><a class="active" href="contact.html" data-hover="Contact">Contact</a></li>
+								<li><a href="index.html" data-hover="Inicio">Inicio</a></li>
+								<li><a href="about.html" data-hover="Nosotros">Nosotros</a></li>
+								<li><a href="services.html" data-hover="Servicios">Servicios</a></li>
+								<li><a href="room.html" data-hover="Habitaciones">Habitaciones</a></li>
+								<li><a class="active" href="contact.html" data-hover="Contacto">Contacto</a></li>
 							</ul>
 						</nav>
 
@@ -101,23 +130,24 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="container">
 		<div class="contact-main">
 			<div class="contact-top">
-				<h2>Contact</h2>
+				<h2>Contacto</h2>
 			</div>
 			<div class="contact-bottom">
 				<div class="col-md-9 contact-left">
 					<form>
-						<input type="text" placeholder="Name">
-						<input type="text" class="email" placeholder="Email">
-						<textarea  placeholder="Message" required=""></textarea>
-						<input type="submit" value="Send">
+						<input type="text" placeholder="Nombre">
+						<input type="text" class="email" placeholder="Correo">
+						<textarea  placeholder="Mensaje" required=""></textarea>
+						<input type="submit" value="Enviar">
 					</form>
 				</div>
 				<div class="col-md-3 contact-right">
-					<h1>Address</h1>
-					<p>Company Office</p>
-					<p>voluptatem nesciunt.</p>
-					<p>+880 5558 568 78541</p>
-					<p><a href="mailto:info@example.com">user@gmail.com</a></p>
+					<h1>Dirección</h1>
+					<p>Ave. 9 de Abril (San Miguel) 18</p>
+					<p>e/ Cuba y Colón</p>
+					<p>Santa Clara, Villa Clara. Cuba</p>
+					<p>+53 55 740653</p>
+					<p><a href="mailto:yaquelinhostal@gmail.com">yaquelinhostal@gmail.com</a></p>
 				</div>
 				<div class="clearfix"> </div>
 			</div>
@@ -140,40 +170,37 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="ftr-logo">
 					<img src="images/ftr-logo.png"  alt="">
 				</div>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-				<a href="single.html" class="ftr-btn">Read More</a>
+				<p>El inmueble posee 4 habitaciones confortables, climatizadas, con cajas de seguridad, baño privado, agua fría y caliente las 24 horas con un hermoso diseño.</p>
+				<a href="room.html" class="ftr-btn">Leer Más</a>
 			</div>
 			<div class="col-md-3 ftr-grid ftr-mid wow zoomIn" data-wow-delay="0.3s">
-				<h3>Address</h3>
+				<h3>Dirección</h3>
 				<span class="ftr-line flm"> </span>
-				<p>Eye Associates Of Virginia?</p>
-				<p>5875 Bremo Road </p>
-				<p>Richmond, VA(Virginia) 23226 </p>
-				<p>(804) 287-4216 </p>
-				<p>Alice Merriman</p>
-
+				<p>Ave. 9 de Abril (San Miguel) 18</p>
+				<p>e/ Cuba y Colón</p>
+				<p>Santa Clara</p>
+				<p>Villa Clara</p>
+				<p>Cuba</p>
+				<p>(+53) 55 740653</p>
 			</div>
 			<div class="col-md-3 ftr-grid ftr-rit wow zoomIn" data-wow-delay="0.3s">
-				<h3>Contact Us</h3>
-				<form>
-					<input type="text" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}">
-					<input type="submit" value="Send" />
-				</form>
-				<ul class="ftr-icons">
-					<li><a href="#"><span class="fa"> </span></a></li>
-					<li><a href="#"><span class="tw"> </span></a></li>
-					<li><a href="#"><span class="link"> </span></a></li>
-					<li><a href="#"><span class="gmail"> </span></a></li>
-				</ul>
+				<h3>Reservar</h3>
+				<!--TODO: poner vinculos de booking sites-->
+				<!--<ul class="ftr-icons">-->
+				<!--<li><a href="#"><span class="fa"> </span></a></li>-->
+				<!--<li><a href="#"><span class="tw"> </span></a></li>-->
+				<!--<li><a href="#"><span class="link"> </span></a></li>-->
+				<!--<li><a href="#"><span class="gmail"> </span></a></li>-->
+				<!--</ul>-->
 			</div>
 			<div class="col-md-3 ftr-grid ftr-last-gd ftr-rit wow zoomIn" data-wow-delay="0.3s">
-				<h3>Quick Link</h3>
+				<h3>Vínculos</h3>
 				<ul class="ftr-nav">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="services.html">Services </a></li>
-					<li><a href="room.html">Rooms</a></li>
-					<li><a href="contact.html">Contact</a></li>
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="about.html">Nosotros</a></li>
+					<li><a href="services.html">Servicios </a></li>
+					<li><a href="room.html">Habitaciones</a></li>
+					<li><a href="contact.html">Contacto</a></li>
 				</ul>
 			</div>
 			<div class="clearfix"> </div>
@@ -185,7 +212,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="copy-right">
 	<div class="container">
 		<div class="copy-rights-main wow zoomIn" data-wow-delay="0.3s">
-			<p>© 2016 Mr Hotel. All Rights Reserved | Design by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
+			<p>© 2017 Hostal Yaquelin. Todos los derechos reservados | Diseñado por  <a href="http://onirosgroup.com/" target="_blank">Oniros Group</a> </p>
 		</div>
 	</div>
 </div>

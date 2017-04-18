@@ -1,43 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37f7c714-723e-4244-81f9-ffdd89068d23" name="Default" comment="services ready">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/about/ab-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/about/ab-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/about/ab-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/blue-room/br.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/green-room/gr.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/home/banner.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/orange-room/or.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/others/o1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/pink-room/pr.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/services/s4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/terrace/t1.jpg" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/b1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/b2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/b3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/b4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/b5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/b6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/banner.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/shortcodes.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/ftr-logo.png" afterPath="$PROJECT_DIR$/images/ftr-logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/logo.png" afterPath="$PROJECT_DIR$/images/logo.png" />
+    <list default="true" id="37f7c714-723e-4244-81f9-ffdd89068d23" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/room-blue/rb1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/room-blue/rb10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/room-blue/rb11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/room-blue/rb12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/room-blue/rb2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/room-blue/rb3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/room-blue/rb4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/room-blue/rb5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/room-blue/rb6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/room-blue/rb7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/room-blue/rb8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/room-blue/rb9.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/room-blue/rbmain.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/room-blue/room-blue.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/room-green/rg1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/room-green/rg10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/room-green/rg2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/room-green/rg3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/room-green/rg4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/room-green/rg5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/room-green/rg6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/room-green/rg7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/room-green/rg8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/room-green/rg9.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/room-green/rgmain.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/room-green/room-green.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/room-orange/ro1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/room-orange/ro2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/room-orange/ro3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/room-orange/ro4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/room-orange/ro5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/room-orange/ro6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/room-orange/ro7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/room-orange/ro8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/room-orange/romain.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/room-orange/room-orange.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/room-pink/room-pink.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/room-pink/rp1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/room-pink/rp2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/room-pink/rp3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/room-pink/rp4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/room-pink/rp5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/room-pink/rp6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/room-pink/rp7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/room-pink/rp8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/room-pink/rpmain.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/rooms/room-comedor1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/rooms/room-pasillo1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/rooms/room-pasillo2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/rooms/room-sala1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/rooms/room-terraza1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/rooms/room-terraza2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roomgreen.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roomorange.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roompink.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/b2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/b3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/b4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/b7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/b8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/b9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/r1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/r2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/r3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/r4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/r5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/s10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/s4.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/bann.jpg" afterPath="$PROJECT_DIR$/images/bann.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/about.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact.html" afterPath="$PROJECT_DIR$/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style1.css" afterPath="$PROJECT_DIR$/css/style1.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/room.html" afterPath="$PROJECT_DIR$/room.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services.html" afterPath="$PROJECT_DIR$/services.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/single.html" afterPath="$PROJECT_DIR$/single.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/a1.jpg" afterPath="$PROJECT_DIR$/images/about/a1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/ab-bann.jpg" afterPath="$PROJECT_DIR$/images/about/ab-bann.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/s1.jpg" afterPath="$PROJECT_DIR$/images/services/s1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/s2.jpg" afterPath="$PROJECT_DIR$/images/services/s2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/s3.jpg" afterPath="$PROJECT_DIR$/images/services/s3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/ser-strip.jpg" afterPath="$PROJECT_DIR$/images/services/ser-strip.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/blue-room/br.jpg" afterPath="$PROJECT_DIR$/images/room-blue/br.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/green-room/gr.jpg" afterPath="$PROJECT_DIR$/images/room-green/gr.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/orange-room/or.jpg" afterPath="$PROJECT_DIR$/images/room-orange/or.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/pink-room/pr.jpg" afterPath="$PROJECT_DIR$/images/room-pink/pr.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/single.html" afterPath="$PROJECT_DIR$/roomblue.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -58,48 +103,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4265">
-              <caret line="88" column="10" lean-forward="false" selection-start-line="88" selection-start-column="10" selection-end-line="88" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/about.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="services.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="268" column="29" lean-forward="false" selection-start-line="268" selection-start-column="29" selection-end-line="268" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ser-strip.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/services/ser-strip.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="45" column="20" lean-forward="false" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
+            <state relative-caret-position="382">
+              <caret line="291" column="28" lean-forward="false" selection-start-line="291" selection-start-column="28" selection-end-line="291" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -114,6 +122,9 @@
       <find>b1</find>
       <find>lema</find>
       <find>yaquelin</find>
+      <find>boti</find>
+      <find>grid-blo</find>
+      <find>welcom</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -122,13 +133,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/room.html" />
         <option value="$PROJECT_DIR$/single.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/contact.html" />
-        <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/css/style1.css" />
+        <option value="$PROJECT_DIR$/about.html" />
+        <option value="$PROJECT_DIR$/roomblue.html" />
+        <option value="$PROJECT_DIR$/roomgreen.html" />
+        <option value="$PROJECT_DIR$/roomorange.html" />
+        <option value="$PROJECT_DIR$/roompink.html" />
+        <option value="$PROJECT_DIR$/room.html" />
         <option value="$PROJECT_DIR$/services.html" />
+        <option value="$PROJECT_DIR$/contact.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -193,11 +208,11 @@
       <recent name="D:\Oniros\clients\002018 - Hostal Yaquelin (Yaquelin)\site\002018\images\about" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Oniros\clients\002018 - Hostal Yaquelin (Yaquelin)\site\002018\images\room-green" />
+      <recent name="D:\Oniros\clients\002018 - Hostal Yaquelin (Yaquelin)\site\002018\images\room-pink" />
+      <recent name="D:\Oniros\clients\002018 - Hostal Yaquelin (Yaquelin)\site\002018\images\room-orange" />
+      <recent name="D:\Oniros\clients\002018 - Hostal Yaquelin (Yaquelin)\site\002018\images\room-blue" />
       <recent name="D:\Oniros\clients\002018 - Hostal Yaquelin (Yaquelin)\site\002018" />
-      <recent name="D:\Oniros\clients\002018 - Hostal Yaquelin (Yaquelin)\site\002018\images\about" />
-      <recent name="D:\Oniros\clients\002018 - Hostal Yaquelin (Yaquelin)\site\002018\images\terrace" />
-      <recent name="D:\Oniros\clients\002018 - Hostal Yaquelin (Yaquelin)\site\002018\images\others" />
-      <recent name="D:\Oniros\clients\002018 - Hostal Yaquelin (Yaquelin)\site\002018\images\green-room" />
     </key>
   </component>
   <component name="RunManager">
@@ -272,12 +287,20 @@
       <option name="presentableId" value="Default" />
       <updated>1492247471898</updated>
       <workItem from="1492247473289" duration="1034000" />
-      <workItem from="1492296418481" duration="16846000" />
+      <workItem from="1492296418481" duration="31125000" />
     </task>
+    <task id="LOCAL-00001" summary="services ready">
+      <created>1492386250668</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1492386250668</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17880000" />
+    <option name="totallyTimeSpent" value="32159000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -289,15 +312,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23076923" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23076923" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -326,158 +349,9 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/logo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/about/a1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/about/ab-bann.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/b2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/b3.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/b4.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/b7.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/b8.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/b9.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/home/banner.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/arrows.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/single.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="84" column="81" lean-forward="false" selection-start-line="84" selection-start-column="81" selection-end-line="84" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/room.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="85" column="24" lean-forward="false" selection-start-line="85" selection-start-column="24" selection-end-line="85" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-913">
-          <caret line="94" column="14" lean-forward="true" selection-start-line="94" selection-start-column="14" selection-end-line="94" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4265">
-          <caret line="88" column="10" lean-forward="false" selection-start-line="88" selection-start-column="10" selection-end-line="88" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/s1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/services/s3.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/services/s2.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/services/s1.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/ftr-social.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/bann.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/email.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style1.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="148" column="5" lean-forward="true" selection-start-line="148" selection-start-column="5" selection-end-line="148" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="268" column="29" lean-forward="false" selection-start-line="268" selection-start-column="29" selection-end-line="268" selection-end-column="29" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blue.html">
@@ -512,15 +386,268 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="45" column="20" lean-forward="false" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/images/services/ser-strip.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/single.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="117" column="0" lean-forward="true" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/r3.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/r2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/r1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/rooms/room-terraza2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/rooms/room-terraza1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/rooms/room-sala1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/rooms/room-pasillo2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/rooms/room-pasillo1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/rooms/room-comedor1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="801">
+          <caret line="268" column="14" lean-forward="false" selection-start-line="268" selection-start-column="14" selection-end-line="268" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roomblue.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="308" column="33" lean-forward="false" selection-start-line="308" selection-start-column="33" selection-end-line="308" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roomgreen.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="292" column="33" lean-forward="false" selection-start-line="292" selection-start-column="33" selection-end-line="292" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roomorange.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="276" column="33" lean-forward="false" selection-start-line="276" selection-start-column="33" selection-end-line="276" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roompink.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="275" column="33" lean-forward="false" selection-start-line="275" selection-start-column="33" selection-end-line="275" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/room.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
-          <caret line="45" column="20" lean-forward="false" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
+          <caret line="284" column="29" lean-forward="false" selection-start-line="284" selection-start-column="29" selection-end-line="284" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="300" column="29" lean-forward="false" selection-start-line="300" selection-start-column="29" selection-end-line="300" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/b2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/b3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/b4.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/b7.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/b8.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/b9.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/bann.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/close.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/email.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/ftr-logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/ftr-social.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/s1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/s2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/s3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/s4.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/s5.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/s6.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/s7.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/s8.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/s9.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/s10.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/s10.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/summer.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/t1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-416">
+          <caret line="114" column="54" lean-forward="false" selection-start-line="114" selection-start-column="54" selection-end-line="114" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="126" column="22" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="126" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="291" column="28" lean-forward="false" selection-start-line="291" selection-start-column="28" selection-end-line="291" selection-end-column="28" />
           <folding />
         </state>
       </provider>
